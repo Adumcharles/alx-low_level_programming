@@ -3,7 +3,7 @@
 /**
  * main - Printing
  *
- * Retun: Always 0 (successful)
+ * Return: Always 0 (Successful)
  */
 int main(void)
 {
