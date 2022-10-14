@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 /**
  * main - Prints the alphabet.
@@ -8,11 +7,13 @@
  */
 int main(void)
 {
-	for (int x = "A" ; x <= "Z";)
-		x++;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int a;
+
+	for (a = 0; a < 26; a++)
 	{
-		x = tolower(x);
-		putchar(x);
+		putchar(alp[a]);
 	}
+	putchar('\n');
 	return (0);
 }
