@@ -23,6 +23,6 @@ int main(void)
 		if (1 < 100)
 			printf(" ");
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
