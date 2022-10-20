@@ -2,9 +2,7 @@
 
 /**
  * print_number - prints an integer.
- * @n: integer parameter
- *
- * Return: void
+ * @n: .input integer parameter
  */
 void print_number(int n);
 {
